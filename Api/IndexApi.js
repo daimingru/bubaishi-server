@@ -71,7 +71,7 @@ module.exports = () => {
             _body = {};
         }
 
-        if( result.body.openid ){
+        if( _body.openid ){
             ctx.body = AjaxReturn(200, _body ,'success');
         }else{
             ctx.body = AjaxReturn(403, {} ,'error');
