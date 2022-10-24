@@ -64,10 +64,15 @@ module.exports = () => {
             url: `https://api.weixin.qq.com/sns/jscode2session?${ctx.req._parsedUrl.query}&appid=wx8170c7fbb5c8b62e&secret=56808a44130f9d74e65867fdaa69096d`
         });
 
-        console.log(result.body);
+        let _body = {};
+        try {
+            _body = JSON.parse( result.body );
+        } catch (error) {
+            _body = {};
+        }
 
         if( result.body.openid ){
-            ctx.body = AjaxReturn(200, JSON.parse( result.body ) ,'success');
+            ctx.body = AjaxReturn(200, _body ,'success');
         }else{
             ctx.body = AjaxReturn(403, {} ,'error');
         }
