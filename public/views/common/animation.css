@@ -1,0 +1,48 @@
+/* first essence h1 */
+@keyframes essence
+{
+    from {opacity: 0}
+    to {opacity: 1}
+}
+
+@-moz-keyframes essence
+{
+    from {opacity: 0}
+    to {opacity: 1}
+}
+
+@-webkit-keyframes essence
+{
+    from {opacity: 0}
+    to {opacity: 1}
+}
+
+@-o-keyframes essence
+{
+    from {opacity: 0}
+    to {opacity: 1}
+}
+/* first essence h2 */
+@keyframes essence2
+{
+    from {opacity: 0;transform:translate(0,20px);}
+    to {opacity: 1}
+}
+
+@-moz-keyframes essence2
+{
+    from {opacity: 0;transform:translate(0,20px);}
+    to {opacity: 1}
+}
+
+@-webkit-keyframes essence2
+{
+    from {opacity: 0;transform:translate(0,20px);}
+    to {opacity: 1}
+}
+
+@-o-keyframes essence2
+{
+    from {opacity: 0;transform:translate(0,20px);}
+    to {opacity: 1}
+}

@@ -1,0 +1,43 @@
+section.essence{
+    height: 100%;
+    border-bottom: 1px solid #eee;
+}
+section.essence .key{
+    -webkit-user-select: none;
+    position: absolute;
+    top: 50%;
+    margin-top: -165px;
+    text-align: center;
+    width: 100%;
+}
+section.essence .key h1{
+    font-size: 60px;
+    font-weight: normal;
+    animation:essence 1.5s;
+    -moz-animation:essence 1.5s;
+    -webkit-animation:essence 1.5s;
+    -o-animation:essence 1.5s;
+}
+section.essence .key h2{
+    animation:essence2 1.8s;
+    -moz-animation:essence2 1.8s;
+    -webkit-animation:essence2 1.8s;
+    -o-animation:essence2 1.8s;
+}
+section.desc{
+    padding: 60px 100px;
+    text-align: center;
+    background: #fdfdfd;
+    border-bottom: 1px solid #eee;
+}
+section.desc h3{
+    font-size: 2em;
+}
+section.desc .content{
+    margin: 0 auto;
+    max-width: 750px;
+    text-align: left;
+}
+section.list{
+    background: #fff;
+}
